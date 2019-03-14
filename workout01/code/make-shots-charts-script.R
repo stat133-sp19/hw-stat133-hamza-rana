@@ -4,6 +4,7 @@ description: a file to view shot data for select NBA players in graphical format
 inputs: stephen-curry.csv, andre-iguodala.csv, thompson-thompson.csv, draymond-green.csv, kevin-durant.csv, images/nba-court.jpg
 outputs: klay-thompson-shot-chart.pdf, stephen-curry-shot-chart.pdf, andre-iguodala-shot-chart.pdf, draymond-green-shot-chart.pdf, kevin-durant-shot-chart.pdf, gsw-shots-chart.png
 "
+
 library(jpeg)
 library(grid)
 library(ggplot2)
