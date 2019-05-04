@@ -1,0 +1,19 @@
+Package: binomial
+Type: Package
+Title: Binomial Distribution
+Version: 0.1.0
+Author: Hamza Rana
+Maintainer: Hamza Rana <hamzarana@berkeley.edu>
+Description: A variety of functions to manipulate a binomial distribution. Multiple functions to check and test parameters, along with some to visualize the given distribution. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Collate:
+    checkers.R
+    summaryfunc.R
+    mainfunc.R
+RoxygenNote: 6.1.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
